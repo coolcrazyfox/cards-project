@@ -1,5 +1,5 @@
 {
-  "homepage": "https://coolcrazyfox.github.io/cards-project/",
+  "homepage": "https://YauheniZhukovets.github.io/Learn-cards",
   "name": "cards-project",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +20,7 @@
     "rc-pagination": "^3.1.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-parallax-tilt": "^1.7.1",
     "react-range": "^1.8.12",
     "react-redux": "^7.2.6",
