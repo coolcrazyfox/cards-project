@@ -1,0 +1,42 @@
+.checkbox {
+    display: none;
+}
+.labelCheckBox {
+    display: inline-block;
+    border: 2px solid #252424;
+    border-radius: 5px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-right: 4px;
+}
+
+.labelCheckBox:hover {
+    box-shadow: 0 0 3px gray;
+}
+
+.labelCheckBox:before {
+    content: '';
+    background: rgb(143, 33, 49);
+    border-radius: 5px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.checkbox:checked + .labelCheckBox:before {
+    opacity: 1;
+}
+
+
+.spanClassName {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}

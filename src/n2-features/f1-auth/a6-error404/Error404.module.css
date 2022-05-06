@@ -1,0 +1,89 @@
+.errorBlock {
+    padding-top: 22vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "-apple-system",BlinkMacSystemFont,Arial,sans-serif;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+.title{
+    color: #5cdecb;
+    margin: 7px;
+    padding-left: 62px;
+}
+
+.errorBlock img {
+    max-width: 27%;
+    background: rgba(45, 46, 70, 0);
+
+}
+.btnBox{
+    margin-left: 57px;
+}
+.btn {
+    height: 35px;
+    width: 218px;
+    background: rgba(190, 47, 65, 0.92);
+    box-shadow: 0 3px 10px rgba(12, 5, 9, 0.84), inset 0 1px 0 rgba(255, 255, 255, 0.42);
+    border-radius: 30px;
+    color: white;
+    margin: 18px 50px 22px;
+
+
+}
+
+.btn:hover {
+    height: 29px;
+    width: 205px;
+    transform: scale(1);
+    transition: all 1s ease;
+    /*margin:23px 143px 16px;*/
+}
+.btn:active{
+    height: 29px;
+    width: 195px;
+    margin: 39px 15px 24px;
+}
+.nameText{
+    font-size: 1em;
+    font-weight: 600;
+    color: #5cde5c;
+    margin: 7px;
+    padding-left: 62px;
+    /*text-transform: uppercase;*/
+    text-align: center;
+}
+.nameText span{
+    transition: 1.5s;
+}
+.nameText:hover span{
+    filter: blur(20px);
+    opacity: 0;
+    transform: scale(2);
+}
+.nameText span:nth-child(12n+1){
+    transition-delay: 0s;
+}
+.nameText span:nth-child(12n+2){
+    transition-delay: 0.1s;
+}
+.nameText span:nth-child(12n+3){
+    transition-delay: 0.2s;
+}
+.nameText span:nth-child(12n+4){
+    transition-delay: 0.3s;
+}
+.nameText span:nth-child(12n+5){
+    transition-delay: 0.4s;
+}
+.nameText span:nth-child(12n+6){
+    transition-delay: 0.5s;
+}
+.nameText span:nth-child(12n+7){
+    transition-delay: 0.6s;
+}
+.nameText span:nth-child(12n+8) {
+    transition-delay: 0.7s;
+}

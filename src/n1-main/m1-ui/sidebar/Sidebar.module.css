@@ -1,0 +1,12 @@
+
+.doubleRangeBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doubleRangeBlock span {
+    display: inline-block;
+    width: 10%;
+}

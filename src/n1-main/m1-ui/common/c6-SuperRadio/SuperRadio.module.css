@@ -1,0 +1,41 @@
+.radioCheckbox {
+    display: none;
+}
+
+.label {
+    padding: 11px 4px;
+    color: white;
+}
+
+.labelRadioCheckBox {
+    margin:  4px 14px;
+    display: inline-block;
+    border: 2px solid #8d8888;
+    border-radius: 5px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.labelRadioCheckBox:hover {
+    box-shadow: 0 0 3px #8f4b4b;
+}
+
+.labelRadioCheckBox:before {
+    content: '';
+    background: rgb(143, 33, 49);
+    border-radius: 5px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.radioCheckbox:checked + .labelRadioCheckBox:before {
+    opacity: 1;
+}

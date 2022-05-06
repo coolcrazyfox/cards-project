@@ -1,0 +1,63 @@
+.pagesWrapper {
+    display: flex;
+    color: #2D2E46;
+    font-size: 16px;
+    position: relative;
+}
+
+.page:hover {
+    font-weight: bold;
+    pointer-events: all;
+}
+
+.page{
+    pointer-events: all;
+}
+
+.pageActive {
+    pointer-events: none;
+}
+
+.pageList {
+    display: flex;
+    /*position: absolute;*/
+    /*left: 40px;*/
+    /*flex-wrap: wrap;*/
+    /*gap: 10px;*/
+}
+
+.currentPage {
+    background: rgba(3, 3, 17, 0.74);
+    border-radius: 2px;
+    color: #F2F5F7;
+    user-select: none;
+    padding: 5px;
+    min-width: 24px;
+    width: content-box;
+    text-align: center;
+}
+
+/*.page {*/
+/*  min-width: 24px;*/
+/*  cursor: pointer;*/
+/*  padding: 5px;*/
+/*  width: content-box;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.prev{*/
+/*  position: absolute;*/
+/*}*/
+
+/*.next{*/
+/*  position: absolute;*/
+/*  left: calc();*/
+/*}*/
+
+.pagesWrapper span {
+    min-width: 24px;
+    cursor: pointer;
+    padding: 5px;
+    width: content-box;
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+.wrap{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.wrap input {
+    background: rgba(248, 247, 247, 0.9);
+    opacity: 0.5;
+    border: 2px solid #5b2b2b;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(12, 5, 9, 0.84), inset 0 1px 0 rgba(255, 255, 255, 0.42);
+    height: 36px;
+    width: 100%;
+    padding: 10px;
+    color: black;
+}
+
+.wrap input:focus {
+    outline: none;
+    border: 2px solid #1b2616;
+}
+
+.wrap .btnSearch {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    right: 10px;
+    border: none;
+    background: url("IconSearch.svg") no-repeat center/contain;
+    cursor: pointer;
+    z-index: 2;
+    top: 15%;
+    opacity: 1;
+}
+
+
+/*.searchBtn{*/
+/*    border: 1px solid grey;*/
+/*    cursor: pointer;*/
+/*    width: 30px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*}*/
+
+
+/*background: url(../c10-Search/IconSearch.svg) no-repeat center/contain;*/
+
+
+
+/*.wrap{*/
+/*    color: black;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+/*.searchBtn{*/
+/*    border: 1px solid grey;*/
+/*    cursor: pointer;*/
+/*    width: 30px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*}*/

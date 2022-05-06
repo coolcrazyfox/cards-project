@@ -1,0 +1,50 @@
+.container {
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+body {
+  font-weight: bold;
+  color: white;
+}
+
+
+.loginBlock {
+  height: 450px;
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 10px;
+  position: absolute;
+  left: 40%;
+}
+
+.loginBlock .titleBlock {
+  font-size:larger;
+  padding: 0 80px 30px 80px;
+}
+
+.loader {
+  height: 30px;
+}
+
+.preloader {
+  position: absolute;
+  top:15%;
+  left: 45%;
+  z-index: 999;
+}
+.errorAll {
+  max-width: 400px;
+  padding: 20px;
+  color: white;
+  background-color: #cb0303;
+  opacity: 0.8;
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.4);
+  border-radius: 10px;
+  position: absolute;
+  bottom:15%;
+  left: 40%;
+  z-index: 999;
+}

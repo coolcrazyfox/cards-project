@@ -1,0 +1,63 @@
+.default {
+    cursor: pointer;
+    height: 29px;
+    width: 120px;
+    background: rgba(190, 47, 65, 0.92);
+    box-shadow: 0 3px 10px rgba(12, 5, 9, 0.84), inset 0 1px 0 rgba(255, 255, 255, 0.42);
+    border-radius: 30px;
+    padding: 5px 10px;
+    min-width: 50px;
+    color: white;
+}
+
+.default:hover {
+    box-shadow: inset 0 -20px 20px rgba(203, 187, 187, 0.2);
+}
+
+.default:active {
+    margin-top: 1px;
+    margin-bottom: -1px;
+    zoom: 1;
+    background: #d3d3d3;
+    color: #5b2b2b;
+}
+
+.default:focus {
+    outline: none;
+}
+
+.default:disabled {
+    box-shadow: inset 0 -20px 20px rgba(148, 141, 141, 0.5);
+}
+
+.red {
+    background: #d06262;
+    cursor: pointer;
+    border: 1px solid #cecece;
+
+    box-shadow: inset 0 -20px 20px rgba(203, 187, 187, 0.2);
+    border-radius: 15px;
+    padding: 5px 10px;
+    min-width: 50px;
+    min-height: 20px;
+}
+
+.red:hover {
+    box-shadow: inset 0 -20px 20px rgba(203, 187, 187, 0.2);
+}
+
+.red:active {
+    margin-top: 1px;
+    margin-bottom: -1px;
+    zoom: 1;
+    background: #d3d3d3;
+    color: #5b2b2b;
+}
+
+.red:focus {
+    outline: none;
+}
+
+.red:disabled {
+
+}
