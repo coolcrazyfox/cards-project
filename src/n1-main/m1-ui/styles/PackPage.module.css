@@ -1,4 +1,4 @@
-.mainContainer{
+.mainContainerPack{
     position: relative;
     max-height: 100vh;
     max-width: 1300px;
@@ -7,16 +7,18 @@
     align-items: center;
     left: 12%;
     margin-top: 45px;
-    /*border: 2px solid aqua;*/
+    border: 2px solid aqua;
 
 }
 
-.container_log{
+.containerLog{
     display: flex;
     justify-content: center;
     max-width: 1250px;
     min-width: 800px;
     min-height: 650px;
+    border: 2px solid aqua;
+
 
     /*position: absolute;*/
     /*display: flex;*/
@@ -237,26 +239,29 @@ b{
     width: 75%;
 }
 @media (max-width: 1570px) {
-    .mainContainer{
+    .mainContainerPack{
         left: 23%;
         max-width: 850px;
     }
-    .container_log{
+    .containerLog{
         width: 750px;
 
     }
 }
 @media (max-width: 1270px) {
-    .mainContainer{
+    .mainContainerPack{
         left:17%;
     }
-    .container_log{
+    .containerLog{
         height: 80%;
     }
 }
 @media (max-width: 1026px) {
-    .mainContainer{
+    .mainContainerPack{
         left:11%;
+    }
+    .containerLog{
+        height: 80%;
     }
 }
 

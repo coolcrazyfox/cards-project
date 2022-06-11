@@ -70,8 +70,8 @@ export const PackList = () => {
     return (
         <div>
             <Header/>
-            <div className={style.mainContainer}>
-                <div className={style.container_log}>
+            <div className={style.mainContainerPack}>
+                <div className={style.containerLog}>
                     <div className={style.blockAvatar}>
                         <div className={style.avatarUrl}>
                             <Sidebar/>
