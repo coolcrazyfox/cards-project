@@ -7,8 +7,6 @@
     align-items: center;
     left: 12%;
     margin-top: 45px;
-    border: 2px solid aqua;
-
 }
 
 .containerLog{
@@ -17,9 +15,7 @@
     max-width: 1250px;
     min-width: 850px;
     min-height: 650px;
-    border: 2px solid aqua;
     background: rgba(249, 249, 254, 0.6);
-    /*border: 1px solid rgba(42, 2, 2, 0.9);*/
     border-radius: 8px;
     -webkit-box-shadow: -4px 5px 4px 1px rgba(157, 151, 151, 0.5);
     -moz-box-shadow: -4px 5px 4px 1px rgba(157, 151, 151, 0.5);
@@ -42,6 +38,7 @@
     flex-direction: column;
     width: 100%;
     padding: 0 20px;
+    border: 2px solid aqua;
     /*float: right;*/
     /*width: 88%;*/
     /*min-height: 460px;*/
@@ -195,13 +192,13 @@ b{
     .containerLog{
         width: 750px;
     }
-    .blockAvatar{
-        width: 150px;
+    .packsBlock{
+        width: 80%;
     }
 }
 @media (max-width: 1270px) {
     .mainContainerPack{
-        left:17%;
+        left:10%;
     }
     .containerLog{
         height: 80%;
@@ -209,13 +206,30 @@ b{
     .blockAvatar{
         width: 80vw;
     }
+    .packsBlock{
+        width: 70%;
+    }
 }
 @media (max-width: 1026px) {
     .mainContainerPack{
-        left:11%;
+        left:9%;
     }
     .containerLog{
         height: 80%;
+    }
+    .packsBlock{
+        width: 80%;
+    }
+}
+@media (max-width: 983px) {
+    .mainContainerPack{
+        left:5%;
+    }
+    .containerLog{
+        height: 80%;
+    }
+    .packsBlock{
+        width: 70%;
     }
 }
 
